@@ -22,3 +22,15 @@
   - ES6 is the latest version of JavaScript
   - Published in 2015
   
+  # Establishing Development server
+   - I have installed, and created react app
+   - I will be testing out code in index.js
+   - And saving it in folder react_learning/
+
+   # How to render Html in react
+   - We can render html in react using JSX
+   - JSX is a syntax extension for JavaScript
+   - There are two main ways:
+   1. Using JSX
+   2. Using React.createElement()
+   - JSX is more common and easier to use
