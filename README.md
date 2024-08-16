@@ -34,3 +34,11 @@
    1. Using JSX
    2. Using React.createElement()
    - JSX is more common and easier to use
+
+   # Coding in JsX
+   - JSX is a syntax extension for JavaScript
+   - JSX is used to write HTML in JavaScript
+   - Jsx stands for Javascript XML
+   - Jsx allows us to write html in react
+   - Jsx makes it easier to write and add html into react
+   
