@@ -1,20 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-const x = 13;
-let text = "GoodBye";
+function Phone(props) {
+    return (
+        <>
+          <h1>This is a phone</h1>
+          <p>It is a {props.brand} and it is {props.color}</p>
+        </>
+    );
+}
 
-if (x < 10) {
-    text = "Hello";
-};
-
-const myElement = (
-    <div className="container">
-        <h1>This is my what I have to say</h1>
-        <p>{text}</p>
-    </div>
-);
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
-root.render(myElement);
+root.render(<Phone brand="Apple" color="Jet Black"/>)
