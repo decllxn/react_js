@@ -1,5 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+// To pass an argument to an event handler, use an arrow functions
+// and pass the argument as the first parameter.
+// Send "GOal!" as a parameter to the shoot function, using arrow function
 
 function Football() {
     const shoot = (a) => {
