@@ -2,15 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 class Car extends React.Component {
-    constructor() {
-        super();
-        this.state = {color: "red"}
-    }
-    render() {
+    constructor(props) {
+        super(props);
+        this.state = {
+            brand: 'Toyota',
+            model: 'Camry',
+            year: 2020,
+            color: 'red'
+        }
+    };
+    render () {
         return (
             <div>
-                <h2>My Car</h2>
-                <p>This is a {this.state.color} Car!</p>
+                <h1>My car is a {this.state.year} {this.state.color}</h1>
             </div>
         );
     }
@@ -18,4 +22,4 @@ class Car extends React.Component {
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
-root.render(<Car />)
+root.render(<Car />);
